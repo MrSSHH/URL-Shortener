@@ -9,8 +9,8 @@ import os
 from errors import *
 
 class url:
-
     main_dir = os.path.join(os.path.dirname(__file__)) + "\database\database.data"
+    
     if not os.path.exists(main_dir):
         os.mkdir(url.main_dir.replace("\database.data", "\\"))
         data = open(main_dir, "w+")
