@@ -17,7 +17,7 @@ After the handler is running, import the url.py
 from url import url
 
 # Creating an URL object
-link = url("https://github.com/MrSSHH") # Pass the URL
+link = url("https://github.com/MrSSHH", host=<your-ip>) # Pass the URL
 link.short() # Returns a shorted version of a link.
 ```
 
