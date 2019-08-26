@@ -1,6 +1,8 @@
 __author__ = "Benjamin"
 __github__  = "https://github.com/MrSSHH/"
 
+# Run this on server side
+
 import sys
 import os
 import socket
@@ -47,6 +49,7 @@ class handler():
 
                 with conn:
                     data = conn.recv(1024)
+
                     # Parssing the GET request into the direct code[1][1]
                     code = str(data).split()
                     print(f"[{code[0]}-Request] - from {addr[0]}:{addr[1]}")
@@ -83,4 +86,4 @@ class handler():
                             conn.close()
                     conn.send(bytes(redirect, "utf-8"))
 
-handler().start()
+handler(host=<your-ip>).start()
