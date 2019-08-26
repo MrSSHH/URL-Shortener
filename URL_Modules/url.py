@@ -59,5 +59,7 @@ class url:
             full_link = "short.link/" + ''.join(code)
             link.write("{} - {}\n".format(self.link, full_link))
             return full_link
+
+        
 l = url("www.google.com")
 print(l.short())
