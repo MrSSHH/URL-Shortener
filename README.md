@@ -1,5 +1,5 @@
 # URL Shortener
- URL Shortener is a project that shorts URLS.
+ URL Shortener Project
 
 ## Installation
 Use [pip](https://pip.pypa.io/en/stable/) to install the requirements (use pip inside of folder installation)
