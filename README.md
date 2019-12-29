@@ -1,6 +1,5 @@
 # URL Shortener
 URL Shortener Project
-Honestly this project has been just sitting there.
 This project will short any URL you will pass into it.
 
 ## Installation
@@ -12,10 +11,10 @@ pip install -f requirements.txt
 
 
 ## Usage
-  Open the handler.py file and switch the **<your-ip>** with your **LAN IP**.\
-  Then simply run handler.py.\
-  After the handler is running, create a new python file and import url.py,\
-  Type the following code:
+Open the handler.py file and switch the **<your-ip>** with your **LAN IP**.
+Then simply run handler.py.
+After the handler is running, create a new python file and import url.py,
+Type the following code:
 ```python
 from url import url
 
