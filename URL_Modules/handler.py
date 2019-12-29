@@ -86,4 +86,5 @@ class handler():
                             conn.close()
                     conn.send(bytes(redirect, "utf-8"))
 
+# Please put your LAN ip address here, and run the handler
 handler(host=<your-ip>).start()
