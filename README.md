@@ -1,5 +1,6 @@
 # URL Shortener
  URL Shortener Project
+This project is meant to be running on LAN networks
 
 ## Installation
 Use [pip](https://pip.pypa.io/en/stable/) to install the requirements (use pip inside of folder installation)
@@ -10,9 +11,10 @@ pip install -f requirements.txt
 
 
 ## Usage
-Start up the handler 
-
-After the handler is running, import the url.py
+Open the handler.py file and switch the <your-ip> with your lan IP.
+Then simply run handler.py.
+After the handler is running, create a new python file and import url.py,
+Type the following code:
 ```python
 from url import url
 
