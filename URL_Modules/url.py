@@ -73,6 +73,3 @@ class url:
             link.write("{} - {}\n".format(self.link, full_link))
             return full_link
 
-
-test = url(<your-URL>, host="10.0.0.8").short()
-pyperclip.copy(test)
