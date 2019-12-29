@@ -68,20 +68,20 @@ class handler():
 
                         try:
                             redirect = f"""
-                    <html lang="en-US">
-                        <head>
-                        <meta charset="UTF-8">
-                        <meta http-equiv="refresh" content="0; url={link[0]}">
-                        <script type="text/javascript">
-                            window.location.href = {link[0]}
-                        </script>
-                        <title>Page Redirection</title>
-                         </head>
-                         <body>
-                            If you are not redirected automatically,
-                            follow this <a href={link[0]}>link to website</a>.
-                        </body>
-                     </html>"""
+                                        <html lang="en-US">
+                                            <head>
+                                            <meta charset="UTF-8">
+                                            <meta http-equiv="refresh" content="0; url={link[0]}">
+                                            <script type="text/javascript">
+                                                window.location.href = {link[0]}
+                                            </script>
+                                            <title>Page Redirection</title>
+                                             </head>
+                                             <body>
+                                                If you are not redirected automatically,
+                                                follow this <a href={link[0]}>link to website</a>.
+                                            </body>
+                                         </html>"""
                         except IndexError:
                             conn.close()
                     conn.send(bytes(redirect, "utf-8"))
