@@ -1,6 +1,7 @@
 # URL Shortener
- URL Shortener Project
-This project is meant to be running on LAN networks
+URL Shortener Project
+Honestly this project has been just sitting there.
+This project will short any URL you will pass into it.
 
 ## Installation
 Use [pip](https://pip.pypa.io/en/stable/) to install the requirements (use pip inside of folder installation)
