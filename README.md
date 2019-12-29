@@ -11,9 +11,8 @@ pip install -f requirements.txt
 
 
 ## Usage
-Open the handler.py file and switch the **your-ip** with your **LAN IP**.
-Then simply run handler.py.
-After the handler is running, create a new python file and import url.py,
+Open the handler.py file and switch the **your-ip** with your **LAN IP**, then simply run handler.py.\
+after the handler is running, create a new python file and import url.py,\
 Type the following code:
 ```python
 from url import url
